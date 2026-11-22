@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What Is Web Design?</title>
+</head>
+<body>
+
+  <header>
+    <h1>What Is Web Design?</h1>
+    <p>A simple guide to how websites are planned, designed and built</p>
+  </header>
+
+  <nav>
+    <a href="#intro">Introduction</a> |
+    <a href="#principles">Design Principles</a> |
+    <a href="#tech">Web Technologies</a> |
+    <a href="#tools">Tools</a>
+  </nav>
+
+  <hr>
+
+  <main>
+
+    <section id="intro">
+      <h2>Introduction to Web Design</h2>
+      <p>
+        <strong>Web design</strong> is the process of planning and creating the look, layout and feel of a website.
+        It combines visual design, user experience, and technical skills so that a website is attractive, easy to use,
+        and works well on phones, tablets and computers.
+      </p>
+
+      <figure>
+        <svg width="600" height="340" viewBox="0 0 600 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of a website layout on a browser window">
+          <rect width="600" height="340" fill="#e8eeff"/>
+          <rect x="60" y="30" width="480" height="280" rx="12" fill="#ffffff" stroke="#2b5cff" stroke-width="3"/>
+          <rect x="60" y="30" width="480" height="34" rx="12" fill="#2b5cff"/>
+          <circle cx="82" cy="47" r="6" fill="#ff6b6b"/>
+          <circle cx="102" cy="47" r="6" fill="#ffd166"/>
+          <circle cx="122" cy="47" r="6" fill="#06d6a0"/>
+          <rect x="150" y="38" width="340" height="18" rx="9" fill="#ffffff" opacity=".85"/>
+          <rect x="80" y="82" width="440" height="40" rx="6" fill="#1f3fb3"/>
+          <text x="300" y="108" text-anchor="middle" font-family="Arial" font-size="18" fill="#fff" font-weight="bold">Headline</text>
+          <rect x="80" y="136" width="130" height="90" rx="6" fill="#a9bcff"/>
+          <text x="145" y="186" text-anchor="middle" font-family="Arial" font-size="14" fill="#1f3fb3">Image</text>
+          <rect x="226" y="140" width="294" height="10" rx="5" fill="#cfd6e6"/>
+          <rect x="226" y="160" width="270" height="10" rx="5" fill="#cfd6e6"/>
+          <rect x="226" y="180" width="294" height="10" rx="5" fill="#cfd6e6"/>
+          <rect x="226" y="200" width="200" height="10" rx="5" fill="#cfd6e6"/>
+          <rect x="80" y="244" width="440" height="50" rx="6" fill="#f3f6ff" stroke="#cfd6e6"/>
+          <text x="300" y="274" text-anchor="middle" font-family="Arial" font-size="14" fill="#555">Footer / Contact</text>
+        </svg>
+        <figcaption>A basic website layout: headline, image, text and footer.</figcaption>
+      </figure>
+
+      <p>
+        Every website you visit, from a school page to an online store, started as a design: someone decided
+        where the menu goes, which colors to use, how big the text should be, and how visitors will move from page to page.
+      </p>
+    </section>
+
+    <hr>
+
+    <section id="principles">
+      <h2>Key Principles of Good Web Design</h2>
+      <ul>
+        <li><strong>Simplicity:</strong> Keep pages clean so visitors find what they need quickly.</li>
+        <li><strong>Consistency:</strong> Use the same colors, fonts and layout across all pages.</li>
+        <li><strong>Responsive design:</strong> The site should look good on every screen size.</li>
+        <li><strong>Readability:</strong> Choose clear fonts and strong contrast between text and background.</li>
+        <li><strong>Easy navigation:</strong> Menus and links should be obvious and logical.</li>
+        <li><strong>Speed:</strong> Optimized images and light code make pages load fast.</li>
+      </ul>
+    </section>
+
+    <hr>
+
+    <section id="tech">
+      <h2>Web Technologies Explained</h2>
+      <p>
+        Websites are built with a few core technologies that work together. Think of a house:
+        HTML is the structure, CSS is the paint and decoration, and JavaScript is the electricity that makes things work.
+      </p>
+
+      <table border="1" cellpadding="8" cellspacing="0">
+        <thead>
+          <tr>
+            <th>Technology</th>
+            <th>What It Does</th>
+            <th>Simple Example</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>HTML</strong> (HyperText Markup Language)</td>
+            <td>Creates the structure and content of a page: headings, paragraphs, images, links, tables.</td>
+            <td>&lt;h1&gt;Hello&lt;/h1&gt;</td>
+          </tr>
+          <tr>
+            <td><strong>CSS</strong> (Cascading Style Sheets)</td>
+            <td>Controls the look: colors, fonts, spacing, layout and responsiveness.</td>
+            <td>h1 { color: blue; }</td>
+          </tr>
+          <tr>
+            <td><strong>JavaScript</strong></td>
+            <td>Adds interactivity: menus, forms, animations, and updating content without reloading.</td>
+            <td>alert("Welcome!");</td>
+          </tr>
+          <tr>
+            <td><strong>HTTP / HTTPS</strong></td>
+            <td>The rules browsers and servers use to send web pages; HTTPS adds encryption for security.</td>
+            <td>https://example.com</td>
+          </tr>
+          <tr>
+            <td><strong>Web Server &amp; Hosting</strong></td>
+            <td>A computer that stores your website files and delivers them to visitors.</td>
+            <td>Shared hosting, cloud hosting</td>
+          </tr>
+          <tr>
+            <td><strong>Domain Name (DNS)</strong></td>
+            <td>Turns a friendly name into the address of the server where the site lives.</td>
+            <td>mysite.com</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>How a Website Loads</h3>
+      <ol>
+        <li>You type a web address into your browser.</li>
+        <li>DNS finds the server that hosts that website.</li>
+        <li>The browser asks the server for the page using HTTP/HTTPS.</li>
+        <li>The server sends back HTML, CSS, JavaScript and images.</li>
+        <li>The browser puts it all together and shows you the page.</li>
+      </ol>
+    </section>
+
+    <hr>
+
+    <section id="tools">
+      <h2>Common Tools for Web Designers</h2>
+      <p>
+        Designers and developers use different tools depending on the task. A simple text editor is enough to
+        start learning HTML.
+      </p>
+      <table border="1" cellpadding="8" cellspacing="0">
+        <thead>
+          <tr>
+            <th>Purpose</th>
+            <th>Examples</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Writing code</td><td>VS Code, Notepad++, Sublime Text</td></tr>
+          <tr><td>Designing layouts</td><td>Figma, Adobe XD, Canva</td></tr>
+          <tr><td>Editing images</td><td>Photoshop, GIMP, Photopea</td></tr>
+          <tr><td>Testing in browsers</td><td>Chrome, Firefox, Safari, Edge</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+  </main>
+
+  <hr>
+
+  <footer>
+    <p>Made with HTML &mdash; a beginner's guide to web design.</p>
+  </footer>
+
+</body>
+</html>
